@@ -24,4 +24,3 @@ export const getManufacturerById = async (request, response) => {
     ? response.send(manufacturer)
     : response.sendStatus(404)
 }
-

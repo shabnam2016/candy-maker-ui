@@ -3,5 +3,3 @@ export default (connection, Sequelize) => connection.define('manufacturers', {
   name: { type: Sequelize.STRING, allowNull: false },
   country: { type: Sequelize.STRING },
 }, { paranoid: true })
-
-

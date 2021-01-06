@@ -24,5 +24,3 @@ export const getProductsById = async (request, response) => {
     ? response.send(product)
     : response.sendStatus(404)
 }
-
-

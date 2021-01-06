@@ -8,6 +8,3 @@ export default (connection, Sequelize, Manufacturers) => connection.define('prod
   },
 },
 { paranoid: true })
-
-
-
